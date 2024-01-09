@@ -213,7 +213,29 @@ main section {
 
 footer {
     display: flex;
-    max-width: 1140px;
+    gap: 120px;
+    padding: 150px 230px;
     margin: 0 auto;
     background: #FFF8F3;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
 }
