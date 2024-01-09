@@ -210,3 +210,10 @@ main section {
     text-align: center;
     margin-top: 70px;
 }
+
+footer {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #FFF8F3;
+}
