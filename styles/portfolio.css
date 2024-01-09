@@ -1,7 +1,6 @@
 /* shared styles */
 * {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
 }
 
 .text-primary {
@@ -111,10 +110,24 @@ nav a {
 
 /* main section styles */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section styles */
 .about {
     padding: 130px 155px;
-    margin: 130px 230px;
+    margin: 130px 0px;
     border-radius: 10px;
     background: #FFF8F3;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
